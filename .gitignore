@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/linux,vscode,django
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,vscode,django
+# Created by https://www.toptal.com/developers/gitignore/api/linux,react,django,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,react,django,vscode
 
 ### Django ###
 *.log
@@ -121,6 +121,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+virtual/
 ENV/
 env.bak/
 venv.bak/
@@ -165,6 +166,21 @@ dmypy.json
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### vscode ###
 .vscode/*
 !.vscode/settings.json
@@ -173,4 +189,4 @@ dmypy.json
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,vscode,django
+# End of https://www.toptal.com/developers/gitignore/api/linux,react,django,vscode
