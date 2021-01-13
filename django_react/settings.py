@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'leads', # activate the app
+    'leads', 
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,12 @@ WSGI_APPLICATION = 'django_react.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES': (
+#         'rest_framework.renderers.JSONRenderer',
+#     )
+# }
 
 DATABASES = {
     'default': {
